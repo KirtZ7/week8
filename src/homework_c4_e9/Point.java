@@ -10,7 +10,7 @@ public class Point {
 
     //Constructor
     public Point() {
-        this(6, 5);
+        this(0, 0);
     }
 
     public Point(int x, int y) {
@@ -47,8 +47,8 @@ public class Point {
     }
 
     public static void main(String[] args) {
-        Point first = new Point(8, 6);
-        Point second = new Point(1, 5);
+        Point first = new Point(6, 5);
+        Point second = new Point(3, 1);
 
         System.out.println("distance(0,0)= " + first.distance());
         System.out.println("distance(second)= " + first.distance(second));
